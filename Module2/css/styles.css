@@ -6,20 +6,20 @@ body, html {
   
   .container {
     width: 100%;
-    max-width: 1200px; /* optional: limit maximum width */
+    max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden; /* clear floats */
-    padding: 20px; /* horizontal spacing between edges of the container and sections */
+    overflow: hidden; 
+    padding: 20px; 
   }
   
   .section {
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    background-color: #d3d2c3; /* section background color */
-    border: 1px solid black; /* section border */
-    margin-bottom: 20px; /* vertical spacing between sections */
-    position: relative; /* relative positioning for section title region */
+    background-color: #d3d2c3;
+    border: 1px solid black; 
+    margin-bottom: 20px; 
+    position: relative; 
   }
   
   .title-region {
